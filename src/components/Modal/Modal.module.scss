@@ -1,0 +1,24 @@
+@import "src/core/styles/common";
+
+.modal{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 999;
+  padding: 40px 20px 20px;
+}
+
+.modalContent{
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  background-color: $white;
+  padding: 20px;
+  border-radius: 8px;
+}

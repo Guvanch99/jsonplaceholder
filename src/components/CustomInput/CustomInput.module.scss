@@ -1,0 +1,14 @@
+@import "src/core/styles/common";
+
+.input{
+  @include fontFamily(Rubik);
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  padding: 12px 8px;
+  width: 100%;
+  border: 1px solid $black;
+  :focus{
+    border: 1px solid $green300;
+  }
+}

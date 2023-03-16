@@ -1,0 +1,19 @@
+@import "src/core/styles/common";
+
+.wrapper{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 32px;
+}
+
+.inputWrapper{
+  width: 100%;
+  max-width: 400px;
+}
+
+.buttonWrap{
+  width: 200px;
+}

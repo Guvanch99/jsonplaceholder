@@ -1,0 +1,56 @@
+@import "src/core/styles/common";
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom:32px;
+}
+
+.headerText{
+  @include fontFamily(Rubik);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 22px;
+  color: $black;
+  text-align: center;
+}
+
+.icon{
+  all:unset;
+  background: transparent;
+  cursor: pointer;
+}
+
+.label{
+  @include fontFamily(Rubik);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 18px;
+  color: $black;
+  margin-bottom: 16px;
+}
+
+.content{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.list{
+  @include fontFamily(Rubik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $black;
+  margin-bottom: 10px;
+}
+
+.listValue{
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
