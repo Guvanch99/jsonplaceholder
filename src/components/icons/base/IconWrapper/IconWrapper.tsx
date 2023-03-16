@@ -20,8 +20,8 @@ export const IconWrapper: FC<TIconWrapperProps> = ({
 
   return (
     <span
+      role="presentation"
       className={styles.wrapper}
-      role="img"
       onClick={onClick}
     >
       {React.cloneElement(children, { ...svgBaseProps, ...props })}
